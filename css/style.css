@@ -1,0 +1,50 @@
+body {
+  font-family: Mangal, Arial;
+  text-align: center;
+  background: #f3f7f3;
+}
+
+h2 {
+  color: darkgreen;
+}
+
+.plot-wrapper {
+  display: grid;
+  grid-template-columns: 120px 220px 120px;
+  grid-template-rows: auto 220px auto;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.plot {
+  grid-column: 2;
+  grid-row: 2;
+  border: 3px solid black;
+  background: #eaffea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.top { grid-column: 2; grid-row: 1; }
+.bottom { grid-column: 2; grid-row: 3; }
+.left { grid-column: 1; grid-row: 2; }
+.right { grid-column: 3; grid-row: 2; }
+
+input {
+  width: 80px;
+  padding: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+}

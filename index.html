@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <title>भूमी क्षेत्रफळ मोजणी</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>भूमी क्षेत्रफळ मोजणी प्रणाली</h2>
+
+<div class="plot-wrapper">
+
+  <div class="top">
+    वरची बाजू (फुट)<br>
+    <input type="number" id="top" min="1">
+  </div>
+
+  <div class="left">
+    डावी बाजू (फुट)<br>
+    <input type="number" id="left" min="1">
+  </div>
+
+  <div class="plot">
+    जमीन
+  </div>
+
+  <div class="right">
+    उजवी बाजू (फुट)<br>
+    <input type="number" id="right" min="1">
+  </div>
+
+  <div class="bottom">
+    खालची बाजू (फुट)<br>
+    <input type="number" id="bottom" min="1">
+  </div>
+
+</div>
+
+<button onclick="calculate()">क्षेत्रफळ मोजा</button>
+
+<div class="result">
+  <p>एकूण क्षेत्रफळ (चौरस फूट): <span id="area">—</span></p>
+  <p>एकूण गुंठे: <span id="totalGuntha">—</span></p>
+  <p>एकूण एकर: <span id="land">—</span></p>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
