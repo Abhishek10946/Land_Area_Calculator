@@ -31,7 +31,7 @@ A simple **static web application** that calculates land area using
 ---
 
 ## 📁 Project Structure
-
+```bash
 BhoomiMojani/
 │
 ├── index.html
@@ -39,7 +39,7 @@ BhoomiMojani/
 │ └── style.css
 └── js/
 └── script.js
-
+```
 ---
 
 ## Tech Stack
